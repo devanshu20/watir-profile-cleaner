@@ -41,7 +41,7 @@ end
     FileUtils.rm_rf(webdriver_profile)
   end
 }
-#Specific code to deal with the temp files created by IEDriverServer
+#Specific code to deal with the temp files created by IEDriverServer for internet explorer
 Dir.glob(ENV["TEMP"].gsub("\\","/")+"/*IED*.tmp").each do |iedriver_profile|
   size += File.size(iedriver_profile)
   files += 1
