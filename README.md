@@ -25,3 +25,18 @@ https://github.com/devanshu20/watir-profile-cleaner.git
 watir profile cleaner utility keeps machines clean, can be plugged into any web test automation projects using Ruby as programming language. This utility can be run individually or configured on Jenkins jobs to run before test automation kicks off, which will clean machines before start executing test automation.
 
 ## Execution Result:
+
+![Screenshot](executionResults.JPG)
+
+## How to Config to run in your automation suite:
+
+### In your Local (within Ruby / Selenium / Watir Test automation project):
+
+  -	Keep utility anywhere in your project folder structure and run frequently to keep machine cleaned.
+  -	Keep above utility code first thing in before hook, so it will run and clean all profiles before starting Test automation fresh.
+
+### On Jenkins(CI Server):
+
+In job's build keep run utility before test automation executes, this will take care of cleaning all watir profiles and keeps all machines cleaned before test automation executes through Jenkins every time.
+
+![Screenshot](JenkinsConfig.JPG)
