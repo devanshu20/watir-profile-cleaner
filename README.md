@@ -39,4 +39,3 @@ watir profile cleaner utility keeps machines clean, can be plugged into any web 
 
 In job's build keep run utility before test automation executes, this will take care of cleaning all watir profiles and keeps all machines cleaned before test automation executes through Jenkins every time.
 
-![Screenshot](JenkinsConfig.JPG)
