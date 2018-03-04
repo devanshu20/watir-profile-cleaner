@@ -19,3 +19,9 @@ http://watir.com/
 ## Here is Resolution to problem
 
 :loudspeaker::loudspeaker::loudspeaker::loudspeaker::loudspeaker::loudspeaker::loudspeaker::loudspeaker::loudspeaker::loudspeaker:
+
+https://github.com/devanshu20/watir-profile-cleaner.git
+
+watir profile cleaner utility keeps machines clean, can be plugged into any web test automation projects using Ruby as programming language. This utility can be run individually or configured on Jenkins jobs to run before test automation kicks off, which will clean machines before start executing test automation.
+
+## Execution Result:
