@@ -1,6 +1,6 @@
 ## watir-profile-cleaner
 cleans all profiles which created by results of running Test automation executed with watir (An open source Ruby library for automating tests) and clear spaces on machines which was unnecessary captured.
-## Problem Statement and Need to develop and code this program with Ruby language:
+## Problem Statement and why there is need to develop and code utility program with Ruby language:
 :cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone::cyclone:
 
 When watir /ruby / selenium test automation runs on machines; each times execution creates watir profiles under temp folder, and as test automation runs multiple times / multiple days run on same machine, it captures all watir profiles under temp folder and slowly start occupying machine’s space where test automation is running i.e. Jenkins, Windows boxes, Virtual machines or where ever scripts are running on continuous basis. This will eventually lower machine’s performance and at some point, kills the machine itself if those watir profiles won’t cleaned up manually on regular intervals. Sometimes it is hard to find problems about this when everything running fine and suddenly machines started to slowing down and having performance issues.
